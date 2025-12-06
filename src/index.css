@@ -1,0 +1,289 @@
+ 
+        :root {
+            --primary-color: #0d5956;
+            --secondary-color: #ff6b81;
+            --accent-color: #63769b;
+            --light-color: #ccfff6;
+            --text-color: #333;
+            --light-text: #f8f9fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        body {
+            color: var(--text-color);
+            background-color: #f9f9f9;
+            direction: rtl;
+            overflow-x: hidden;
+        }
+
+        h1,
+        h2 {
+            font-family: 'Aref Ruqaa', serif;
+            text-align: center;
+        }
+
+        /* NAVBAR / HEADER */
+        header {
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 0.75rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar-brand.logo-text {
+            color: var(--primary-color);
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .navbar-brand.logo-text:hover {
+            color: var(--primary-color);
+        }
+
+        .navbar-nav .nav-link {
+            font-weight: bold;
+            font-size: 1rem;
+            color: var(--text-color);
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: var(--primary-color);
+        }
+
+        .logo img {
+            height: 50px;
+            width: auto;
+        }
+
+        /* HOME */
+        .homebage {
+            background-color: #c3efed;
+            padding-bottom: 100px;
+        }
+
+        .home {
+            background-image: linear-gradient(180deg, rgba(165, 206, 199, 0.6) 0%, #151f33 80%),
+                url(images/pexels-pok-rie-239659-scaled.jpg) !important;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            min-height: 100vh;
+            padding-top: 10vw;
+            background-position: top;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-bottom: 3rem;
+        }
+
+        .home h1 {
+            color: #ebebeb;
+            text-shadow: 0 2px 6px rgba(13, 61, 60, 0.658);
+            text-align: center;
+            font-size: 3.5rem;
+            word-spacing: 10px;
+            margin-bottom: 1rem;
+            line-height: 1.2em;
+            text-shadow: 0em 0em 0.8em rgba(0, 17, 51, 0.55);
+            font-weight: 700;
+        }
+
+        .home h1:first-child {
+            font-size: 4rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .home p {
+            text-align: center;
+            font-size: 1.8rem;
+            color: rgb(214, 181, 181);
+            line-height: 1.6;
+            text-shadow: 0em 0em 0.8em rgba(0, 17, 51, 0.55);
+            margin: 0 auto;
+            max-width: 900px;
+            padding: 0 1rem;
+        }
+
+        .homebage h2 {
+            color: #555555;
+            text-align: center;
+            font-size: 2rem;
+            padding-top: 2.5rem;
+        }
+
+      .cardes {
+         padding-bottom: 50px;
+        }
+
+        .cardes .card-custom {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 22px;
+            text-align: center;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+            transition: 0.3s ease;
+            cursor: pointer;
+            min-height: 200px;
+        }
+
+        .cardes .card-custom:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .cardes .card-custom i {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            display: block;
+        }
+
+        .cardes .card-custom h3 {
+            margin: 1rem 0;
+            color: var(--primary-color);
+            font-size: 1.7rem;
+            font-weight: 700;
+        }
+
+        .cardes .card-custom a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .cardes .card-custom p {
+            color: #666;
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+
+        /* WHO WE ARE */
+        .who_we_are {
+            background-image: linear-gradient(160deg, #f6ffff, #e6fffe);
+            padding: 4rem 0 3rem;
+        }
+
+        .who_we_are h1 {
+            text-align: center;
+            font-size: 2.4rem;
+            color: var(--primary-color);
+            margin-bottom: 3rem;
+            font-weight: 700;
+            padding: 0 1rem;
+        }
+
+        .who_we_are .content-img {
+            width: 100%;
+            border-radius: 100px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .who_we_are h2 {
+            color: var(--primary-color);
+            margin-bottom: 1.2rem;
+            font-size: 2rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            justify-content: flex-end;
+        }
+
+        .who_we_are h2 img {
+            width: 45px;
+            height: 45px;
+            object-fit: contain;
+        }
+
+        .who_we_are p {
+            font-size: 1.1rem;
+            line-height: 1.9;
+            color: #555;
+        }
+
+        .who_we_are span {
+            color: var(--secondary-color);
+            font-weight: bold;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #63769b;
+            width: 100%;
+            min-height: 8vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        footer p {
+            color: white;
+            font-size: 1rem;
+            text-align: center;
+            margin: 0;
+            padding: 0.5rem 1rem;
+        }
+
+        /* RESPONSIVE TWEAKS */
+        @media (max-width: 992px) {
+            .home {
+                padding-top: 5rem;
+                min-height: 80vh;
+            }
+
+            .home h1 {
+                font-size: 2.6rem;
+            }
+
+            .home h1:first-child {
+                font-size: 3rem;
+            }
+
+            .home p {
+                font-size: 1.4rem;
+            }
+
+            .who_we_are .content-img {
+                height: 300px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .home {
+                padding-top: 4rem;
+                min-height: 70vh;
+            }
+
+            .home h1 {
+                font-size: 2.2rem;
+            }
+
+            .home h1:first-child {
+                font-size: 2.6rem;
+            }
+
+            .home p {
+                font-size: 1.1rem;
+            }
+
+            .who_we_are h1 {
+                font-size: 2rem;
+            }
+
+            .cardes .card-custom {
+                margin-bottom: 1rem;
+            }
+
+            .who_we_are .content-img {
+                height: 250px;
+                border-radius: 40px;
+            }
+        }
