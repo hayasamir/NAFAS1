@@ -25,7 +25,7 @@ export default function HeroAudio() {
           </p>
           <img
             data-aos="zoom-in"
-            src="public/images/5033613.png"
+          src="/images/5033613.png"
             alt="الموارد الصوتية"
             className="hero-image"
           />
