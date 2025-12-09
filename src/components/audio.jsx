@@ -137,7 +137,7 @@ export default function AudioResources() {
             والفوضى بخطوات هادئة وواضحة
           </p>
           <audio controls>
-            <source src="/audio/so6hMA4j5vs.mp3" type="audio/mpeg" />
+            <source src="https://files.catbox.moe/2sxduh.mp3" type="audio/mpeg" />
           </audio>
         </div>
 
