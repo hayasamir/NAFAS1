@@ -137,7 +137,8 @@ export default function AudioResources() {
         </div>
 
         <div className="audio-card">
-          <img src="public/images/self-awareness.png" alt="icon" />
+        <img src="/images/self-awareness.png" alt="icon" />
+
           <h3>مُحترف الخسارة</h3>
           <p>
             حلقة رايقة بتحكي عن التعايش مع الخسائر، وكيف نتعامل معها بدون جلد، وبهدوء يساعدنا نكمّل الطريق
