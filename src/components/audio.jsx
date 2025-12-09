@@ -86,7 +86,7 @@ export default function AudioResources() {
             بسيط يخفّف عليك ويهدي بالك.
           </p>
           <audio controls>
-            <source src="/audio/dBqO46XXbjI.mp3" type="audio/mpeg" />
+            <source src="https://files.catbox.moe/malihy.mp3" type="audio/mpeg" />
           </audio>
         </div>
 
