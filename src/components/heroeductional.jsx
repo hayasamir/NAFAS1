@@ -20,7 +20,13 @@ export default function HeroEductional() {
       <div className="hero-content">
         <h1 data-aos="fade-down">التأهيل التعليمي</h1>
         <p data-aos="fade-up">ابدأ رحلتك التعليمية بخطوات صغيرة، موارد سهلة، ونصائح عملية</p>
-        <img data-aos="zoom-in" src="public/images/10058487.png" alt="التأهيل التعليمي" class="hero-image"/>
+      <img 
+  data-aos="zoom-in" 
+  src="/images/10058487.png" 
+  alt="التأهيل التعليمي" 
+  class="hero-image"
+/>
+
       </div>
     </div>
     </div>
