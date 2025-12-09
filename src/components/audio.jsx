@@ -125,7 +125,7 @@ export default function AudioResources() {
             القلب
           </p>
           <audio controls>
-            <source src="/audio/w-med4nbCfQ.mp3" type="audio/mpeg" />
+            <source src="https://files.catbox.moe/oyb8m0.mp3" type="audio/mpeg" />
           </audio>
         </div>
 
