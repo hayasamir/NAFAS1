@@ -17,7 +17,7 @@ export default function AudioResources() {
           <h3>هدوء الأعصاب</h3>
           <p>جلسة قصيرة تساعدك على تهدئة التوتر والرجوع للراحة النفسية.</p>
           <audio controls>
-            <source src="/audio/ngmPWmJ6kqE.mp3" type="audio/mpeg" />
+            <source src="https://files.catbox.moe/7v7jv1.mp3" type="audio/mpeg" />
           </audio>
         </div>
 
