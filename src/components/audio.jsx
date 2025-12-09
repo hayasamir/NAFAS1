@@ -98,7 +98,7 @@ export default function AudioResources() {
             لطيفة وواقعية
           </p>
           <audio controls>
-            <source src="/audio/nj87GiThgHI.mp3" type="audio/mpeg" />
+            <source src="https://files.catbox.moe/bxz1if.mp3" type="audio/mpeg" />
           </audio>
         </div>
       </div>
