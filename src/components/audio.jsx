@@ -113,7 +113,7 @@ export default function AudioResources() {
             بسيط ويدفي القلب
           </p>
           <audio controls>
-            <source src="/audio/-rmv0VUJg8g.mp3" type="audio/mpeg" />
+            <source src="https://files.catbox.moe/0dieq1.mp3" type="audio/mpeg" />
           </audio>
         </div>
 
