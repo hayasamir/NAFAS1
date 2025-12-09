@@ -47,7 +47,7 @@ export default function AudioResources() {
             شعور الأمل خطوة خطوة.
           </p>
           <audio controls>
-            <source src="/audio/A7yjHs7zwI8.mp3" type="audio/mpeg" />
+            <source src="https://files.catbox.moe/e5yu7c.mp3" type="audio/mpeg" />
           </audio>
         </div>
       </div>
