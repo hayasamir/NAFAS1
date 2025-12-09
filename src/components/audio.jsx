@@ -62,7 +62,7 @@ export default function AudioResources() {
             السلام الداخلي بطريقة هادئة ومطمئنة.
           </p>
           <audio controls>
-            <source src="/audio/ngmPWmJ6kqE.mp3" type="audio/mpeg" />
+            <source src="https://files.catbox.moe/8nw5lx.mp3" type="audio/mpeg" />
           </audio>
         </div>
 
