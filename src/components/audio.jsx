@@ -149,7 +149,7 @@ export default function AudioResources() {
             يساعدنا نكمّل الطريق
           </p>
           <audio controls>
-            <source src="/audio/tLlybpymato.mp3" type="audio/mpeg" />
+            <source src="https://files.catbox.moe/6ej9oq.mp3" type="audio/mpeg" />
           </audio>
         </div>
       </div>
