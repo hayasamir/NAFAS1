@@ -35,7 +35,7 @@ export default function AudioResources() {
           <h3>القلق المفرط</h3>
           <p>جلسة تساعدك على تهدئة القلق وإعادة التركيز الذهني.</p>
           <audio controls>
-            <source src="/audio/bEZl-RQUQ1o.mp3" type="audio/mpeg" />
+            <source src="https://files.catbox.moe/58vc1r.mp3" type="audio/mpeg" />
           </audio>
         </div>
 
@@ -74,7 +74,7 @@ export default function AudioResources() {
             بخطوات بسيطة ومريحة.
           </p>
           <audio controls>
-            <source src="/audio/YoZ2s8jMeYA.mp3" type="audio/mpeg" />
+            <source src="https://files.catbox.moe/oo38n3.mp3" type="audio/mpeg" />
           </audio>
         </div>
 
