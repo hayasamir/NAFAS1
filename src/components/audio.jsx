@@ -26,7 +26,7 @@ export default function AudioResources() {
           <h3>تراكمات</h3>
           <p>حلقة خفيفة لتنظيم أفكارك وتخفيف ضغط اليوم.</p>
           <audio controls>
-            <source src="/audio/-ChDKQtkAEE.mp3" type="audio/mpeg" />
+            <source src="https://files.catbox.moe/d6ibe7.mp3" type="audio/mpeg" />
           </audio>
         </div>
 
